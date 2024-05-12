@@ -1,0 +1,50 @@
+.diva-central {
+    display: flex;
+    flex-direction: row;
+    margin: -2px;
+}
+.div1 {
+    display: inline-block;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+.div1:hover {
+    background: aqua;
+}
+
+.div2 {
+    display: inline-block;
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+.div4 {
+    display: inline-block;
+    margin: -2px -2px;
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+    background: aqua;
+}
+
+.div6 {
+    display: inline-block;
+    margin: -2px -2px;
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+.div7 {
+    display: inline-block;
+    margin: -2px -2px;
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+    background: yellow;
+}
