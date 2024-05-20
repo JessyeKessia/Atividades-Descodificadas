@@ -35,5 +35,5 @@ p{
     background-position: center;
     height: 100%;
     position: relative;
-    box-shadow: inset 20px 20px 20px 0px red;
+    box-shadow: inset 10px 10px 20px 0px red;
 }
