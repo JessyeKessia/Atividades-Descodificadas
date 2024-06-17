@@ -1,0 +1,45 @@
+html, * {
+    background-color: pink;
+}
+
+.el {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+p {
+    color:blueviolet;
+    font-size: 20px;
+}
+.coracao {
+    position: relative;
+    display: inline-block;
+}
+
+.coracao img {
+    display: block;
+}
+
+.coracao::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.coracao:hover::after {
+    opacity: 0.5; 
+}
